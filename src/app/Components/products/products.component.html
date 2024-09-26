@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+      <ng-container *ngFor="let item of productsList">
+        <div class="card mx-auto my-5">
+          <img class="item-image my-auto" src="{{item.image}}" alt="">
+          <h5 class="itemdata title">{{item.title}}</h5>
+          <p><strong>Price:</strong>R${{item.price}}</p>
+          <p>{{item.category}}</p>
+          <button class="btn btn-primary my-auto mx-auto" (click)="addToCart(item)">Adicionar</button>
+        </div>
+      </ng-container>
+    </div>
+  </div>

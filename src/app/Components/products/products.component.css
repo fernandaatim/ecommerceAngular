@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.item-image{
+    width: 100px;
+    height: 75px;
+}
+
+.btn{
+    width:150px;
+}
+
+.title{
+    font-weight: 600 !important;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: 300px !important;
+    height: 250px;
+}
